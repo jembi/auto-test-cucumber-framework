@@ -1,0 +1,17 @@
+autotests\test\helpers\SharedStorage.class
+autotests\test\helpers\CustomLocators.class
+autotests\test\helpers\PropertiesUtil.class
+autotests\test\RunCukesTest.class
+autotests\test\model\common\CommonModel.class
+autotests\test\pageobjects\BasePage.class
+autotests\test\step_definitions\common\CommonSteps.class
+autotests\test\helpers\AdditionalConditions$1.class
+autotests\test\pageobjects\TestPageObject.class
+autotests\test\helpers\Log.class
+autotests\test\step_definitions\common\TestStepDefinition.class
+autotests\test\helpers\AdditionalConditions.class
+autotests\test\helpers\DataHelper.class
+autotests\test\step_definitions\Hooks.class
+autotests\test\testrail\TestRailIntegrationClient.class
+autotests\test\helpers\DriverFunctions.class
+autotests\test\model\common\TestPageModel.class

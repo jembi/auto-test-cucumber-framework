@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2451691,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setupEnvironment()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3828047228,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check the landing page of google",
+        "description": "",
+        "id": "test-log-in-to-google.com;check-the-landing-page-of-google",
+        "after": [
+          {
+            "result": {
+              "duration": 72206,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterFailedScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2891604116,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSuccessfulScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 584629652,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85670973,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I add the test case IDs to the shared storage for test rail reporting",
+            "match": {
+              "location": "CommonSteps.i_add_the_test_case_IDs_to_the_shared_storage_for_test_rail_reporting(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "project",
+                  "suite",
+                  "section",
+                  "test-case-id"
+                ],
+                "line": 5
+              },
+              {
+                "cells": [
+                  "Test Project",
+                  "Master",
+                  "Auto Test Case",
+                  "443"
+                ],
+                "line": 6
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6621678156,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the google landing page",
+            "match": {
+              "location": "TestStepDefinition.i_navigate_to_the_google_landing_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "landing page"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "www.google.com"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17587045,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter text \"Test works !\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test works !",
+                  "offset": 14
+                }
+              ],
+              "location": "TestStepDefinition.i_enter_text_to_search(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test log in to google.com",
+    "description": "",
+    "id": "test-log-in-to-google.com",
+    "keyword": "Feature",
+    "uri": "features/test/test.feature"
+  }
+]

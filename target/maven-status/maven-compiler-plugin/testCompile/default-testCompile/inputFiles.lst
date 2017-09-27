@@ -1,0 +1,16 @@
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\step_definitions\Hooks.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\helpers\Log.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\step_definitions\common\TestStepDefinition.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\pageobjects\BasePage.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\model\common\TestPageModel.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\helpers\SharedStorage.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\helpers\AdditionalConditions.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\testrail\TestRailIntegrationClient.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\model\common\CommonModel.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\helpers\DataHelper.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\helpers\DriverFunctions.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\RunCukesTest.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\step_definitions\common\CommonSteps.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\helpers\PropertiesUtil.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\helpers\CustomLocators.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-template\src\test\java\autotests\test\pageobjects\TestPageObject.java

@@ -1,0 +1,44 @@
+node {
+
+    // Mark the code checkout 'stage'....
+    stage 'Checkout'
+
+    // Checkout code from repository
+    deleteDir()
+    checkout scm
+
+    // Get the maven tool.
+    // ** NOTE: This 'M3' maven tool must be configured
+    // **       in the global configuration.
+    def mvnHome = tool 'M3'
+
+    // Mark the code build 'stage'....
+    stage 'Build'
+
+        // Run the maven build to check compilation, currently not running of tests.
+        // Remove -DskipTests and pass an environment identifier to run the tests against an environment
+        // E.g. mvn clean test -Denv.HOME=dev
+        sh "${mvnHome}/bin/mvn clean install -DskipTests"
+
+    //stage 'Code-Analysis'
+        //def scannerHome = tool 'SonarQubeScanner';
+        //withSonarQubeEnv('sonarqube') {
+        //    sh "${scannerHome}/bin/sonar-scanner"
+        //}
+
+    stage 'Cucumber Reporting'
+        step([$class: 'CucumberReportPublisher',
+          fileExcludePattern: '',
+          fileIncludePattern: '',
+          ignoreFailedTests: false,
+          jenkinsBasePath: '',
+          jsonReportDirectory: '',
+          missingFails: false,
+          parallelTesting: false,
+          pendingFails: false,
+          skippedFails: false,
+          undefinedFails: false])
+
+     
+    }
+

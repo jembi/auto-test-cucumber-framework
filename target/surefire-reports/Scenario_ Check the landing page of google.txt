@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Check the landing page of google
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.739 sec - in Scenario: Check the landing page of google
