@@ -28,9 +28,9 @@ node {
 
         if(SUITE != null){
             if (SUITE != 'all'){
-                sh "${mvnHome}/bin/mvn clean install -Dmaven.test.failure.ignore=false -Denv.HOME=${ENVIRONMENT} -Dhub=ridebooker -Dcucumber.options='-t @${SUITE}'"
+                sh "${mvnHome}/bin/mvn clean install -Dmaven.test.failure.ignore=false -Denv.HOME=${ENVIRONMENT} -Dhub=hubtest -Dcucumber.options='-t @${SUITE}'"
             }else{
-                sh "${mvnHome}/bin/mvn clean install -Dmaven.test.failure.ignore=false -Denv.HOME=${ENVIRONMENT} -Dhub=ridebooker"
+                sh "${mvnHome}/bin/mvn clean install -Dmaven.test.failure.ignore=false -Denv.HOME=${ENVIRONMENT} -Dhub=hubtest"
             }
         }
 
