@@ -1,5 +1,5 @@
-#Auto Testerino
-#_____________________________________________________________________________________________________________________________
+Auto
+
 Selenium & Java based frontend automation suite utilising the BDD methodologies of Cucumber and Gherkin 
 
 1. Install JAVA SDK 8
@@ -52,3 +52,20 @@ Feature PageObject Class - Java class whereby the necessary HTML objects are cap
 ##Testrail Integration Class - Java class that writes test run results to Jembi’s test rail server
 
 ##Cucumber Reports - Cucumber has a built in report generation whereby Feature files tested are automatically written to cucumbers own reporting system 
+
+```
+Steps to write an acceptance test
+Each Feature file has it’s step defition, pageobject & model class
+              
+              -Create Feature file and define feature scenario test & Testrail ID’s
+              
+              -Run project and copy method stubs from output
+              
+              -Create Step definition class & paste method stubs
+              
+              -Create Page Object Class and define objects required
+              
+              -Create Model Class & Define actions require with page objects
+              
+              -Instantiate model object in Step definition & execute tests required per step
+```
